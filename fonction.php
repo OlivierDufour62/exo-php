@@ -26,8 +26,8 @@ function affInput($x)
 function createForm(array $array)
 {
     
-        foreach($array as $attr){
-            echo '<input name="' . $attr['name'] . '" type="' .$attr['type'].'" class="'.$attr['class'] . '""';
+        foreach($array as $key){
+            echo '<input name="' . $key['name'] . '" type="' .$key['type'].'" class="'.$key['class'] . '""';
         }
     
 }
