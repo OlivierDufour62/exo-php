@@ -7,3 +7,15 @@ function number(int $x){
     }
 }
 
+function number2(int $x){
+    $i = 0;
+    for($i=0; $i<$x;$i++){
+        echo $i;
+    }
+}
+
+function affInput($x){
+    for($i=0; $i<$x;$i++){
+        echo '<input type="text">' . '<br>';
+    }
+}
